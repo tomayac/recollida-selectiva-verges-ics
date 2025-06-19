@@ -1,0 +1,20 @@
+{
+  "name": "recollida-selectiva-verges",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@touch4it/ical-timezones": "^1.9.0",
+    "express": "^5.1.0",
+    "ical-generator": "^9.0.0",
+    "luxon": "^3.6.1"
+  }
+}
