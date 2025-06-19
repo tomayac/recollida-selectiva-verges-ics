@@ -57,6 +57,6 @@ app.get('/verges.ics', (req, res) => {
   res.send(cal.toString()); // ✅ use toString instead of cal.serve
 });
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`ICS calendar available at http://localhost:${port}/verges.ics`);
 });
